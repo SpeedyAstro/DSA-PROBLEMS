@@ -4,7 +4,7 @@ public class DuplicateEle {
         for(int ele:arr){
             ans = ans ^ ele; //XOR Operation
         }
-        for(int i=1;i<arr.length;i++){  //[1,[n-1]
+        for(int i=1;i<arr.length;i++){  //[1,n-1]
             ans = ans ^ i;
         }
         return ans;
