@@ -2,9 +2,9 @@ public class DuplicateEle {
     public static int FindDuplicate(int [] arr){
         int ans =0;
         for(int ele:arr){
-            ans = ans ^ ele;
+            ans = ans ^ ele; //XOR Operation
         }
-        for(int i=0;i<arr.length;i++){
+        for(int i=1;i<arr.length;i++){  //[1,[n-1]
             ans = ans ^ i;
         }
         return ans;

@@ -7,7 +7,7 @@ You need to find and return that number which is unique in the array/list.
     public static int FindUniqueEle(int [] arr){
         int ans=0;
         for (int ele : arr) {
-            ans = ele^ans;
+            ans = ele^ans; //XOR OPERATION 
         }
         return ans;
     } 
