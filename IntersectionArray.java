@@ -1,5 +1,6 @@
 import java.util.ArrayList;
-
+//best efficient way is through hashmap 
+// two pointers approach is used here
 public class IntersectionArray {
     public static ArrayList<Integer> ArrayIntersection(int [] arr, int [] arr1){
         ArrayList<Integer> ans = new ArrayList<>();
