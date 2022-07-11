@@ -1,3 +1,9 @@
+/*
+ * find element in rotated and sorted array
+ * -> 1) find pivot element
+ * -> 2) check if target element is less than pivot or greater than 
+ * -> 3) then go for binary search as per the conditon
+ */
 public class RotatedsortedPivot {
     private static int SearchBinary(int[] arr,int key,int start, int end){
         int s = start, e = end;
