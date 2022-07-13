@@ -4,7 +4,7 @@
  * -> 2) check if target element is less than pivot or greater than 
  * -> 3) then go for binary search as per the conditon
  */
-public class RotatedsortedPivot {
+public class RotatedsortedPivot {   //Binary Search
     private static int SearchBinary(int[] arr,int key,int start, int end){
         int s = start, e = end;
         int mid = s + (e-s)/2;
