@@ -8,7 +8,7 @@ import java.util.ArrayList;
 public class ArrOfDuplicates {
     public static ArrayList<Integer> DuplicateFind(int[] arr){
         int occ[] = new int[arr.length+1]; // array keep the occurance of element 
-        ArrayList<Integer> ans = new ArrayList<>(); //
+        ArrayList<Integer> ans = new ArrayList<>(); // Arraylist 
         for(int i = 0;i < arr.length;i++){
             occ[arr[i]]++;
         }
