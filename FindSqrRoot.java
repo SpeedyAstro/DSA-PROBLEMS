@@ -1,17 +1,18 @@
 class FindSqrRoot{
     private static int SearchSqrRoot(int []arr , int key){
-        int start = 0,end = arr.length-1,ans=0;
+        int start = 0,end = arr.length-1,ans=-1;
         int mid = start + (end-start)/2; 
         while(start<=end){
-            if(arr[mid]*arr[mid] == key){
+            int sqr = arr[mid]*arr[mid];
+            if(sqr == key){
                 ans = arr[mid];
                 return ans;
             }
-            else if (arr[mid]*arr[mid] < key){
+            else if (sqr < key){
                 ans = arr[mid];
                 start = mid + 1;
             }
-            else if(arr[mid]*arr[mid]> key){
+            else if(sqr > key){
                 end = mid -1;
             }
             mid = start+(end-start)/2;
