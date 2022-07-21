@@ -24,7 +24,7 @@ class FindSqrRoot{
         double ans = temp;
         for(int i = 0;i<precision;i++){
             factor = factor / 10;
-            for(double j = ans;j*j<n;j= j+factor){
+            for(double j = ans;j*j<=n;j= j+factor){
                 ans = j;
             }
         }
