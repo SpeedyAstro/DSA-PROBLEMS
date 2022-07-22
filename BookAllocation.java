@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//📌
 public class BookAllocation {
     private static boolean isPossible(int []arr, int n, int m , int mid){
         int PageSum = 0;
