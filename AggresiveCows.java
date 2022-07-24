@@ -43,7 +43,7 @@ public class AggresiveCows {
         stall.add(1);
         stall.add(3);
         stall.add(6);
-        int cows = 2;
+        int cows = 3;
         System.out.println(FindStalls(stall, cows));
     }
 }
