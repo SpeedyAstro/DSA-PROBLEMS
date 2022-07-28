@@ -1,3 +1,7 @@
+/*
+ * @author : pandeyanubhav888 [codeforces]
+ * <a href="https://codeforces.com/problemset/problem/282/A"/>
+ */
 import java.util.*;
 public class A_Bit {
     public static void main(String[] args){
