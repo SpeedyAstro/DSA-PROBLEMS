@@ -24,17 +24,12 @@ public class BeautifulMatrix {
         for(int i = 0; i < 5; i ++){
             for(int j = 0; j < 5; j++){
                 matrix[i][j] = sc.nextInt();
-            }
-        }
-        for(int i = 0; i < 5; i++){
-            for(int j = 0; j < 5; j++){
                 if(matrix[i][j] == 1){
                     value = Math.abs(2 - i);
                     value += Math.abs(2 - j);
-                    break;
                 }
             }
         }
-        System.out.println(value);
+    System.out.println(value);
     }
 }
