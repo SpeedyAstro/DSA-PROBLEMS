@@ -19,5 +19,6 @@ public class A_Bit {
             }
         }
         System.out.println(X);
+        sc.close();
     }
 }

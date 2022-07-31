@@ -42,6 +42,6 @@ public class BookAllocation {
         int n = sc.nextInt();
         int m = arr.length; //number of books
         System.out.println(AllocateBook(arr, m, n));
-
+        sc.close();
     }
 }

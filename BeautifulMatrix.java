@@ -30,6 +30,7 @@ public class BeautifulMatrix {
                 }
             }
         }
+        sc.close();
     System.out.println(value);
     }
 }
