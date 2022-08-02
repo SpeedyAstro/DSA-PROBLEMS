@@ -17,7 +17,7 @@ public class A_Bit {
             else{
                 X--;
             }
-        }
+        } 
         System.out.println(X);
         sc.close();
     }
