@@ -17,4 +17,4 @@ You need to find and return that number which is unique in the array/list.
         int n = FindUniqueEle(arr);
         System.out.println(n);
     }
-}
+} 
