@@ -20,5 +20,6 @@ public class MaxOccurChar {
         Scanner sc = new Scanner(System.in);
         String s = sc.nextLine();
         FindMaxChar(s);
+        sc.close();
     }
 }
