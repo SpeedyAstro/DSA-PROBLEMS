@@ -11,7 +11,7 @@ public class AggresiveCows {
                 if(CowCount==cows){
                     return true;
                 }
-                lastPos = stall.get(i);
+                lastPos = stall.get(i); 
             }
         }
         return false;
