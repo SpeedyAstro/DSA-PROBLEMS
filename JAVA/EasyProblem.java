@@ -6,7 +6,7 @@ public class EasyProblem {
         int n = sc.nextInt();
         int ans = 0;
         for(int i = 0 ; i < n ; i++){
-            int response = sc.nextInt();
+            int response = sc.nextInt(); 
             ans += response;
         }
         if(ans >= 1){
