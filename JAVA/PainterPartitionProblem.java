@@ -16,7 +16,7 @@ public class PainterPartitionProblem {
                     return false;
                 }
             }
-        }
+        } 
         return true;
     }
      private static int PartitionBoard(int [] board,int pntr){
