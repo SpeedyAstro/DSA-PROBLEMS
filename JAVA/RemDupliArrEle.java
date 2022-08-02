@@ -14,7 +14,7 @@ public class RemDupliArrEle {
         int i = 0;
         for(int j = 1; j < nums.length ; j++){
             if(nums[i] != nums[j]){
-                i++;
+                i++; 
                 nums[i] = nums[j];
             }
             
