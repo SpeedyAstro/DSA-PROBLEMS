@@ -4,8 +4,7 @@
  * 
  */
 import java.util.*;
-import java.lang.*;
-import java.io.*;
+
 public class Chewbacca{
     public static int changeDigit(char t){
         return '9' - t + 48;  //48 - '0'
