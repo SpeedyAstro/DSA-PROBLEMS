@@ -5,14 +5,14 @@ Now, your task is to find the first and last occurrence of ‘K’ in ARR.
      */
     // [approach] Binary search 
     public static int FirstEle(int []arr, int key){
-        int start = 0, end = arr.length-1,ans= -1;
+        int start = 0, end = arr.length-1,ans= -1; 
         int mid = start+(end-start)/2;
         while(start<=end){
-            if(arr[mid]== key){
+            if(arr[mid] == key){
                 ans = mid;
                 end = mid-1;
-            }
-            else if(arr[mid]> key){
+            } 
+            else if(arr[mid]> key){ 
                 end = mid-1;
             }
             else{
