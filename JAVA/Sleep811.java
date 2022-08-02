@@ -14,7 +14,7 @@ public class Sleep811 {
             int total_sleep_minutes = Integer.MAX_VALUE;
             int alarm = sc.nextInt();
             int h = sc.nextInt();
-            int m = sc.nextInt();
+            int m = sc.nextInt(); 
             for(int i= 0 ; i < alarm ; i++){    
                 int mn = 0;
                 int hi = sc.nextInt();
