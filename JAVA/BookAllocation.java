@@ -8,7 +8,7 @@ public class BookAllocation {
             if(PageSum+arr[i] <= mid){
                 PageSum = PageSum + arr[i];
             }
-            else{
+            else{ 
                 studentCount++;
                 if(studentCount>n || arr[i]>mid){
                     return false;
