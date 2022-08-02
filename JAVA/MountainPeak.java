@@ -10,11 +10,11 @@ arr[i] > arr[i + 1] > ... > arr[arr.length - 1]
     [APPROACH] - Binary Search
  */
 public class MountainPeak {
-    private static int PeakElement(int[] arr){
+    private static int PeakElement(int[] arr){ 
         int start = 0, end = arr.length-1;
         int mid = start + (end-start)/2;
         while(start<end){
-            if(arr[mid]<arr[mid+1]){
+            if(arr[mid]<arr[mid+1]){ 
                 start = mid+1;
             }
             else{
@@ -25,7 +25,7 @@ public class MountainPeak {
         }
         return start;
     }
-    public static void main(String[] args) {
+    public static void main(String[] args) { 
         int arr [] = {3,4,5,1};
         System.out.println(PeakElement(arr));
     }
