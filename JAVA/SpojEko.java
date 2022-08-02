@@ -16,7 +16,7 @@ public class SpojEko {
         int [] trees = new int[n];
         int m = sc.nextInt();
         for(int i = 0;i<n;++i){
-            trees[i] = sc.nextInt();
+            trees[i] = sc.nextInt(); 
         }
         int low = 0, high = 1000;
         int mid = (low+high)/2;
