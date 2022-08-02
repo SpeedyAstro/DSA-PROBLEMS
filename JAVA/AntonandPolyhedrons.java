@@ -23,7 +23,7 @@ public class AntonandPolyhedrons {
                 counter += 20;
             }
         }
-        System.out.println(counter);
+        System.out.println(counter); 
         sc.close();
     }
 }
