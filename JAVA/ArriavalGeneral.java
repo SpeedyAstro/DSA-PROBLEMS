@@ -8,7 +8,7 @@ public class ArriavalGeneral {
         for(int i = 1 ; i <= n ; i++){
             int soldier = sc.nextInt();
             if(max_value<soldier){
-                max = i;
+                max = i; 
                 max_value = soldier;
             }
             if(min_value>=soldier){
