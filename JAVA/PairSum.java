@@ -14,7 +14,7 @@ public class PairSum {
     }
     public static void main(String[] args) {
         int[] arr = {1,4,7,3,2,8};
-        System.out.println(SumPair(arr, 10));
+        System.out.println(SumPair(arr, 10)); 
     }
 }
 
