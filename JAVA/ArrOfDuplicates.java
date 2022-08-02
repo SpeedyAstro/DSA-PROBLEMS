@@ -13,7 +13,7 @@ public class ArrOfDuplicates {
             occ[arr[i]]++;
         }
         for(int i = 0; i < occ.length; i++){
-            if (occ[i]>1) {
+            if (occ[i]>1) { 
                 ans.add(i);
             }
         }
