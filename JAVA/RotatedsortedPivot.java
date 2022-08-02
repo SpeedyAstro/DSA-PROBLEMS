@@ -23,7 +23,7 @@ public class RotatedsortedPivot {   //Binary Search
         return -1;
     }
     private static int SearchPivot(int[] arr){
-        int start = 0, end = arr.length-1;
+        int start = 0, end = arr.length-1; 
         int mid = start + (end-start)/2;
         while(start<end){
             if(arr[mid]>arr[0]){
