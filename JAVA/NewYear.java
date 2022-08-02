@@ -1,6 +1,7 @@
 /*
  * @author : pandeyanubhav888
  * <a href="https://codeforces.com/problemset/problem/723/A"/>
+ * version : java 8
  */
 import java.util.ArrayList;
 import java.util.Collections;
@@ -15,10 +16,10 @@ public class NewYear {
         }
         //Collection.sort(s);
         Collections.sort(s);
-        int a = s.get(0) - s.get(1);
-        int b = s.get(1) - s.get(2);
-        System.out.println(Math.abs(a+b));
-
+        int a = s.get(0) - s.get(1); 
+        int b = s.get(1) - s.get(2); 
+        System.out.println(Math.abs(a+b)); 
+        sc.close();
 
     }
 }
