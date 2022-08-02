@@ -14,8 +14,8 @@ public class SumRoundNum {
         while(t>0){
             int rpt = 0;
             t--;
-            n = sc.nextInt();
-            if(n < 10){
+            n = sc.nextInt(); 
+            if(n < 10){ 
                 System.out.println(1);
                 System.out.println(n);
                 continue;
@@ -38,6 +38,7 @@ public class SumRoundNum {
             //t--;
             //rpt = 0;
             System.out.println();
+            sc.close();
         }
     }
 }
