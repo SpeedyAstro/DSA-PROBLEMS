@@ -16,7 +16,7 @@ public class MaxOccurChar {
         System.out.println("Maximum Occuring Character is : "+c);
         System.out.println("Number of times occured : "+max);
     }
-    public static void main(String[] args) {
+    public static void main(String[] args) { 
         Scanner sc = new Scanner(System.in);
         String s = sc.nextLine();
         FindMaxChar(s);
