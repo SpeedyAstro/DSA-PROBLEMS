@@ -17,6 +17,6 @@ public class Problem492 {
                 //System.out.println(n);
             }
         }
-        System.out.println(height-1);
+        System.out.println(height-1); 
     }   
 }
