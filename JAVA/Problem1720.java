@@ -18,7 +18,7 @@ class Problem1720{
                 if(p2 != 0 && p1%p2 == 0){
                     System.out.println("1");
                 }
-                else if(p1 != 0 && p2 % p1 == 0){
+                else if(p1 != 0 && p2 % p1 == 0){ 
                     System.out.println("1");
                 }
                 else{
