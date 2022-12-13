@@ -1,4 +1,4 @@
-<h1 align='center'><a href="https://github.com/Mr-Anubhav-pandey/DSA-PROBLEMS"><code> JAVA DSA PROBLEMS </code></a></h1>
+<h1 align='center'><a href="https://github.com/SpeedyAstro/DSA-PROBLEMS"><code> JAVA DSA PROBLEMS </code></a></h1>
 <p align="center">
     <img src="https://readme-typing-svg.herokuapp.com?font=Tourney&center=true&color=23FF4DFF&size=40&width=310&height=80&duration=2000&lines=LeetCode;GeeksforGeeks;Coding+Ninjas;binarysearch;work@tech;InterviewBit;CodeChef;CodeForces;HackerRank;HackerEarth"/>
 </p>
